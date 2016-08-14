@@ -1,0 +1,79 @@
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, sans-serif;
+    background-color: #eeeeee;
+}
+
+a, a:visited {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#site-wrapper {
+    width: 600px;
+    margin: 40px auto;
+    padding: 0 30px;
+    border: 5px solid #aaaaaa;
+}
+
+#game-container {
+    width: 550px;
+    margin: 0 auto;
+}
+
+#question-container {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#counter-display {
+    float: left;
+    padding-top: 50px;
+}
+
+#counter {
+    font-size: 125px; 
+}
+
+#multiplication {
+    font-size: 80px;
+    color: #888888;
+    padding-left: 20px;
+}
+
+#thing-display {
+    float: right;
+}
+
+#thing {
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+}
+
+#thing-desc {
+    text-align: center;
+    color: #888888;
+}
+
+#answer-container {
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
+}
+
+#answer-form {
+    padding-top: 30px;
+}
+
+#answer-input {
+    font-size: 25px;
+}
+
+#footer {
+    color: #aaaaaa;
+}

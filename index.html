@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>数詞ゲーム</title>
+	<link rel="stylesheet" href="assets/style/main.css">
+</head>
+<body>
+	<div id="site-wrapper">
+		<div id="header">
+			<h1>数詞ゲーム</h1>
+		</div>
+		
+		<div id="game-container">
+			<div id="question-container">
+				<div id="counter-display">
+					<span id="counter">00</span> <span id="multiplication">x</span>
+				</div>
+				<div id="thing-display">
+					<img id="thing" src="assets/img/placeholder.png">
+					<div id="thing-desc">reveal</div>
+				</div>
+			</div>
+			<div id="answer-container">
+				<div id="answer-form">
+					<form id="answer-form-el" action="#">
+						<input id="answer-input" type="text" size="30" autocomplete="off" value="">
+						<input type="submit" value="OK">
+						<button id="reveal-answer" type="button">?</button>
+					</form>
+				</div>
+				<div id="score-display">
+					Score: 0
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<p>
+				<a href="http://repo.nara-u.ac.jp/modules/xoonips/download.php/AN00181569-19900300-1015.pdf?file_id=3658">more info</a>
+				- made by j 2016
+			</p>
+		</div>
+	</div>
+	
+	<script src="assets/script/wanakana.js"></script>
+	<script src="assets/script/defiant.js"></script>
+	
+	<script src="assets/data/main.js"></script>
+	<script src="assets/script/suushi.js"></script>
+	<script src="assets/script/game.js"></script>
+</body>
+</html>
