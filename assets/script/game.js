@@ -89,8 +89,10 @@ function nextThing() {
     }
     if (data.things[thingID].type == "ordinal") {
         document.getElementById("multiplication").textContent = ".";
+        document.getElementById("type").textContent = "ordinal";
     } else {
         document.getElementById("multiplication").textContent = "x";
+        document.getElementById("type").textContent = "cardinal";
     }
     counter = getRandomInt(counterMin, counterMax);
     updateCounter();
